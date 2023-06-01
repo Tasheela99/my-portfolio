@@ -1,0 +1,615 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*--------------------------------------------------Home page styles*/
+.home-page-outer {
+    width: 100%;
+    height: 980px;
+    background: radial-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://images.pexels.com/photos/1572036/pexels-photo-1572036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+    background-size: cover;
+}
+
+.home-page-top-bar-outer {
+    border: 2px solid red;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(170, 166, 157, 0.1);
+}
+
+.home-page-top-bar-inner,
+.home-page-top-bar-left,
+.home-page-top-bar-right {
+    height: 100%;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(223, 230, 233, 1.0);
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.home-page-top-bar-right .fa-brands {
+    color: rgba(223, 230, 233, 1.0);
+    font-size: 20px;
+}
+.social-icon:hover .fa-facebook-f{
+    color: blue;
+}
+.social-icon:hover .fa-whatsapp{
+    color: green;
+}
+.social-icon:hover .fa-linkedin-in{
+    color: darkblue;
+}
+.social-icon:hover .fa-instagram{
+    color: purple;
+}
+
+.home-page-top-bar-right .social-icon:hover{
+    background-color: rgba(255, 242, 0, 1.0);
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(223, 230, 233, 0.2);
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.nav-link {
+    color: rgba(223, 230, 233, 1.0);
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: rgba(255, 242, 0, 1.0);
+    cursor: pointer;
+}
+
+.home-page-body-outer {
+    width: 100%;
+    height: 80vh;
+}
+
+.home-page-body-items {
+    height: 790px;
+}
+
+.home-page-left {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-title h1 {
+    color: rgba(223, 230, 233, 1.0);
+    font-size: 80px;
+}
+
+.home-page-left-inner p {
+    color: rgba(223, 230, 233, 1.0);
+    text-align: justify;
+}
+
+.my-image-inner {
+    height: 95%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page-buttons {
+    margin-top: 50px;
+}
+
+.custom-btn {
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 0;
+}
+
+.contact-me {
+    background-color: rgba(223, 230, 233, 1.0);
+    color: rgba(255, 242, 0, 1.0);
+}
+
+.download-cv-btn {
+    background-color: rgba(255, 242, 0, 1.0);
+}
+
+
+/*--------------------------------------------------Home page styles*/
+
+
+/*--------------------------------------------------about page styles*/
+.about-page-about-details {
+    padding-bottom: 60px;
+}
+
+.about-page-header-inner {
+    background-color: rgba(255, 242, 0, 1.0);
+    height: 150px;
+    text-align: justify;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: -50px;
+    margin-bottom: 10px;
+}
+
+.about-page-header-desc {
+    text-align: center;
+}
+.about-page-header-desc h1{
+    animation-name: leftToRight;
+    animation-duration: 4s;
+}
+
+@keyframes leftToRight {
+    0%{
+        transform: translateX(200px);
+    }
+}
+
+.about-items {
+    height: 380px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 10px 0;
+}
+
+.about-items:nth-child(3) {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.about-icon {
+    font-size: 80px;
+}
+
+.fa-user {
+    font-size: 50px;
+}
+
+.about-description p {
+    text-align: center;
+}
+.about-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my-image {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/*--------------------------------------------------about page styles*/
+
+
+/*--------------------------------------------------education page styles*/
+.education-page-outer {
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+    background-color: rgba(223, 230, 233, 1.0)
+}
+
+.education-page-title {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.education-page-title h1 {
+    text-align: center;
+    color: rgba(255, 242, 0, 1.0);
+}
+
+.fa-graduation-cap {
+    color: rgba(255, 242, 0, 1.0);
+    font-size: 50px;
+}
+
+.education-items {
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fa-user-graduate {
+    font-size: 50px;
+}
+
+.education-items-inner {
+    box-shadow: 0 0 10px black;
+    height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*--------------------------------------------------education page styles*/
+
+
+/*--------------------------------------------------projects page styles*/
+.projects-page-outer {
+    padding: 0 0 60px 0;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.projects-page-title h1 {
+    text-align: center;
+    color: black;
+}
+
+.fa-list-check {
+    font-size: 50px;
+    color: black;
+}
+
+.projects-area {
+    margin-top: 50px;
+    height: 100%;
+}
+
+.projects {
+    height: 300px;
+    padding: 20px;
+}
+
+.projects-inner {
+    border: 1px solid rgba(255, 242, 0, 1.0);
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projects-inner h3 {
+    color: rgba(223, 230, 233, 1.0);
+    text-align: center;
+}
+
+.btn-custom-one {
+    width: 200px;
+    height: 45px;
+    color: black;
+    background-color: rgba(255, 242, 0, 1.0);
+    border: none;
+    border-radius: 0;
+}
+
+.projects-inner:hover {
+    background-color: black;
+    cursor: pointer;
+    border: 2px solid rgba(255, 242, 0, 1.0);
+}
+
+/*--------------------------------------------------projects page styles*/
+
+
+/*--------------------------------------------------hobby page styles*/
+.hobby-page-outer {
+    background-color: rgba(223, 230, 233, 1.0);
+    height: auto;
+    padding: 0 0 60px 0;
+}
+
+.hobby-page-title {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hobby-page-title h1 {
+    color: rgba(255, 242, 0, 1.0);
+}
+
+.fa-person-snowboarding {
+    color: rgba(255, 242, 0, 1.0);
+    font-size: 50px;
+}
+
+.hobby-item {
+    height: 300px;
+    padding: 10px;
+}
+
+
+.carousel-outer {
+    padding: 90px 0 20px 0;
+}
+
+.hobby-item .fa-solid {
+    font-size: 40px;
+    color: rgba(223, 230, 233, 1.0);
+}
+
+.hobby-name {
+    margin-top: 20px;
+    color: rgba(223, 230, 233, 1.0);
+}
+
+.hobby-name h2 {
+    letter-spacing: 5px;
+}
+
+.hobby-icon-outer {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid rgba(223, 230, 233, 1.0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hobby-item-6 {
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/957312/chess-checkmated-chess-pieces-black-white-957312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+}
+
+.hobby-item-5 {
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/694740/pexels-photo-694740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+}
+
+.hobby-item-4 {
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/1128334/pexels-photo-1128334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+}
+
+.hobby-item-3 {
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+}
+
+.hobby-item-2 {
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/4009402/pexels-photo-4009402.jpeg?auto=compress&cs=tinysrgb&w=1600") no-repeat center;
+}
+
+.hobby-item-1 {
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/7858761/pexels-photo-7858761.jpeg?auto=compress&cs=tinysrgb&w=1600") no-repeat center;
+}
+
+.hobby-item-0 {
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/9994278/pexels-photo-9994278.jpeg?auto=compress&cs=tinysrgb&w=1600") no-repeat center;
+}
+
+.hobby-item:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition-duration: 1.5s;
+}
+
+.hobby-item:hover .hobby-name {
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+
+/*--------------------------------------------------hobby page styles*/
+
+
+/*--------------------------------------------------gallery page styles*/
+
+
+.gallery-page-outer {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("https://images.pexels.com/photos/139312/pexels-photo-139312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+    padding: 0 0 100px 0;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-images {
+    font-size: 50px;
+    color: black;
+}
+
+.gallery-one {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-image {
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+
+.gallery-image img {
+    border-radius: 25px;
+}
+
+/*--------------------------------------------------gallery page styles*/
+
+
+/*--------------------------------------------------gallery page styles*/
+.fa-address-card {
+    font-size: 50px;
+    color: black;
+}
+
+.contact-page-outer {
+    background-color: rgba(223, 230, 233, 1.0);
+    padding: 0 0 100px 0;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+}
+
+.contact-icon {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact .fa-solid {
+    font-size: 40px;
+}
+
+.contact-details {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fa-phone {
+    color: blue;
+}
+
+.fa-location-dot {
+    color: green;
+}
+
+.fa-envelopes-bulk {
+    color: red;
+}
+
+/*--------------------------------------------------gallery page styles*/
+
+
+.yellow-page-title {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(255, 242, 0, 1.0);
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.black-page-title {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: yellow;
+}
+
+
+@media (max-width: 1275px) {
+    .my-home-image {
+        width: 400px;
+    }
+
+    .home-page-buttons {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .custom-btn {
+        width: 150px;
+        margin-right: 10px;
+    }
+
+    .home-title h1 {
+        font-size: 50px;
+    }
+
+    .home-page-top-bar-right {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 770px) {
+    .my-home-image {
+        display: none;
+    }
+
+}
+
+@media (max-width: 725px) {
+    .home-title h1 {
+        font-size: 50px;
+    }
+}
+
+
+@media (min-width: 1000px ) and (max-width: 1400px) {
+
+    .gallery-image img {
+        width: 290px;
+    }
+}
+
+@media (max-width: 450px) {
+    .about-name h1{
+        text-align: center;
+    }
+}
