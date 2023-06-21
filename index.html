@@ -20,7 +20,7 @@
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>My portfolio | Home </title>
 </head>
-<body>
+<body style="z-index: 100">
 <!--home page starts-->
 <div id="home">
     <div class="home-page-outer">
@@ -28,7 +28,9 @@
             <div class="home-page-top-bar-inner  d-flex align-items-center">
                 <div class="container">
                     <div class="row">
-                        <div class=".col-12 col-lg-6 home-page-top-bar-left"></div>
+                        <div class=".col-12 col-lg-6 home-page-top-bar-left">
+                            <p>tasheelajay1999@gmail.com</p>
+                        </div>
                         <div class=".col-12 col-lg-6 home-page-top-bar-right d-flex justify-content-end">
                             <div class="social-icon"><a href=""><i class="fa-brands fa-facebook-f"></i></a></div>
                             <div class="social-icon"><a href=""><i class="fa-brands fa-whatsapp"></i></a></div>
@@ -40,7 +42,7 @@
                 </div>
             </div>
         </div>
-        <div class="home-page-navbar-outer">
+        <div class="home-page-navbar-outer" id="nav-bar">
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
@@ -83,7 +85,7 @@
                     <div class="col-12 col-lg-6 col-md-6 col-sm-12 home-page-body-items">
                         <div class="home-page-left">
                             <div class="home-page-left-inner">
-                                <div class="home-title"><h1>I AM A <br>Web Developer</h1></div>
+                                <div class="home-title"><h1>I AM A <br><div class="typing-text">Web Developer</div></h1></div>
                                 <p>Hi, I'm Tasheela, a web developer and UI/UX designer with a passion for creating
                                     beautiful, functional, and user-centered digital experiences. With 2 years of
                                     experience
@@ -120,10 +122,10 @@
 <div id="about">
     <div class="about-page-header-outer">
         <div class="container">
-            <div class="about-page-header-inner d-flex align-items-center justify-content-center p-4">
+            <div class="about-page-header-inner d-flex align-items-center justify-content-center p-4" id="about-header">
                 <div class="row">
                     <div class="col-12 col-lg-12 about-page-header-desc">
-                        <h1>About Me</h1>
+                        <h1 id="about-name">About Me</h1>
                         <i class="fa-solid fa-user"></i>
                     </div>
                 </div>
