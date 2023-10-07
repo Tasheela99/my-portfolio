@@ -10,13 +10,19 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
+import { SideNavComponent } from './components/side-nav/side-nav.component';
+import {MatSidenavModule} from "@angular/material/sidenav";
+import {MatListModule} from "@angular/material/list";
+import {MatTooltipModule} from "@angular/material/tooltip";
+import { PortfolioModule } from './modules/portfolio/portfolio.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    SideNavComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +30,11 @@ import {MatButtonModule} from "@angular/material/button";
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSidenavModule,
+    PortfolioModule,
+    MatListModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

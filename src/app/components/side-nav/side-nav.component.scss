@@ -1,0 +1,25 @@
+
+
+.mat-sidenav{
+  width: 300px;
+}
+
+.active-link{
+  background-color: blue;
+  border-left: 5px solid darkblue;
+}
+
+
+.inner-content{
+  border: 1px solid black;
+  height: auto;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .mat-sidenav{
+    display: none;
+  }
+
+}
+
