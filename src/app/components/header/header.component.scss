@@ -1,3 +1,9 @@
+
+$primary-color:#ffa502;
+$secondary-color:#2f3542;
+$app-color:#f1f2f6;
+$app-font:Rubik, sans-serif;
+
 .example-spacer{
   flex: 1 1 auto;
 }
@@ -9,22 +15,22 @@
 
 .mat-toolbar{
   padding: 40px 0;
-  background-color: #2f3542;
+  background-color: $secondary-color;
   position: sticky;
   top: 0;
   z-index: 100;
 
   button{
-    color: #ffa502;
+    color: $primary-color;
 
     &:hover{
-      color: #ffa502;
+      color: $primary-color;
 
     }
   }
 
   .active-link{
-    background-color:#ffa502!important;
-    color: #2f3542!important;
+    background-color:$primary-color!important;
+    color: $secondary-color!important;
   }
 }

@@ -34,7 +34,8 @@ import { PortfolioModule } from './modules/portfolio/portfolio.module';
     MatSidenavModule,
     PortfolioModule,
     MatListModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

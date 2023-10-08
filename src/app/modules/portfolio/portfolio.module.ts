@@ -10,6 +10,7 @@ import { HobbiesComponent } from './components/hobbies/hobbies.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import {MatCardModule} from "@angular/material/card";
 import {MatButtonModule} from "@angular/material/button";
+import {MatIconModule} from "@angular/material/icon";
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import {MatButtonModule} from "@angular/material/button";
     CommonModule,
     PortfolioRoutingModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule
   ]
 })
 export class PortfolioModule { }
