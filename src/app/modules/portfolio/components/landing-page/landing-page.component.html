@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-12 col-lg-6 left">
             <div class="inner-item">
-              <h2 class="greeting">Hello, I'm</h2>
+              <h1 class="greeting">Hello, I'm</h1>
               <h1 class="name">
                 <span class="large-text">T</span>asheela
 
@@ -32,6 +32,296 @@
             </div>
           </div>
           <div class="col-12 col-lg-6 right"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 about-left d-flex align-items-center justify-content-center">
+            <img src="assets/images/my-logo.png" alt="My-Logo">
+          </div>
+          <div class="col-12 col-lg-6 about-right">
+            <h1 class="title">About me</h1>
+            <h3 class="my-jobs">
+              Web Developer | Software Developer | UI/UX Developer
+            </h3>
+            <p class="my-self">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque debitis doloremque eaque
+              expedita illo illum in ipsam iste laboriosam maxime nobis perspiciatis quasi quia quisquam, quos
+              recusandae repudiandae sint suscipit voluptate. Ab, at consectetur est et fugiat laudantium maxime
+              possimus quae quis recusandae repudiandae sapiente sequi tempore tenetur ut.
+            </p>
+            <div class="social-profiles">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="title text-center">My Services</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4 service-item-outer">
+            <div class="item">
+              <div class="item-icon"><i class="fa-brands fa-shopify"></i></div>
+              <h1 class="item-name">Shopify Development</h1>
+              <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consequatur
+                doloremque earum explicabo hic in minima nam nihil quae quasi, sint tempore. Ad aspernatur cumque ipsam
+                mollitia recusandae rerum voluptate.</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 service-item-outer">
+            <div class="item">
+              <div class="item-icon"><i class="fa-brands fa-figma"></i></div>
+              <h1 class="item-name">Ui/UX Design</h1>
+              <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloremque
+                ducimus enim eos eum facilis incidunt magni maiores officiis pariatur, qui quibusdam repellendus
+                similique? Alias harum labore minus repudiandae totam!</p>
+            </div>
+
+          </div>
+          <div class="col-12 col-lg-4 service-item-outer">
+            <div class="item">
+              <div class="item-icon"><i class="fa-solid fa-terminal"></i></div>
+              <h1 class="item-name">Web Development</h1>
+              <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto
+                aut cum dolorem itaque quis sit? Accusamus aliquam, amet ducimus ex ipsa iste laboriosam modi neque
+                quibusdam sint sit tempore.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skills-section">
+      <div class="skills-section-inner">
+        <div class="container">
+          <div class="row">
+            <div class="skills-left col-12 col-lg-6 py-5">
+              <h1 class="title">My Skills And Tools</h1>
+              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores at blanditiis
+                commodi dicta doloremque eius exercitationem illum inventore mollitia optio pariatur quas, quos ut
+                voluptas?</p>
+              <button class="hire-me-btn" mat-raised-button>
+                <i class="fa-brands fa-phoenix-framework"></i>
+                Hire me
+              </button>
+            </div>
+            <div class="skills-right col-12 col-lg-6 py-5">
+              <div class="skills-carousel">
+                <owl-carousel-o [options]="customOptions">
+                  <ng-container *ngFor="let icon of slidesIcon">
+                    <ng-template carouselSlide>
+                      <div class="carousel-content">
+                        <i [class]="icon.iconClass" class="icon"></i>
+                      </div>
+                    </ng-template>
+                  </ng-container>
+                </owl-carousel-o>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects-section">
+      <div class="project-inner">
+        <div class="container">
+          <div class="row">
+            <h1 class="title">My Projects</h1>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-4 col-md-6 project-outer">
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title>Shiba Inu</mat-card-title>
+                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                  <p>
+                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+                    bred for hunting.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                  <button mat-button>LIKE</button>
+                  <button mat-button>SHARE</button>
+                </mat-card-actions>
+              </mat-card>
+
+            </div>
+            <div class="col-12 col-lg-4 col-md-6 project-outer">
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title>Shiba Inu</mat-card-title>
+                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                  <p>
+                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+                    bred for hunting.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                  <button mat-button>LIKE</button>
+                  <button mat-button>SHARE</button>
+                </mat-card-actions>
+              </mat-card>
+
+            </div>
+            <div class="col-12 col-lg-4 col-md-6 project-outer">
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title>Shiba Inu</mat-card-title>
+                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                  <p>
+                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+                    bred for hunting.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                  <button mat-button>LIKE</button>
+                  <button mat-button>SHARE</button>
+                </mat-card-actions>
+              </mat-card>
+
+            </div>
+            <div class="col-12 col-lg-4 col-md-6 project-outer">
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title>Shiba Inu</mat-card-title>
+                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                  <p>
+                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+                    bred for hunting.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                  <button mat-button>LIKE</button>
+                  <button mat-button>SHARE</button>
+                </mat-card-actions>
+              </mat-card>
+
+            </div>
+            <div class="col-12 col-lg-4 col-md-6 project-outer">
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title>Shiba Inu</mat-card-title>
+                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                  <p>
+                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+                    bred for hunting.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                  <button mat-button>LIKE</button>
+                  <button mat-button>SHARE</button>
+                </mat-card-actions>
+              </mat-card>
+
+            </div>
+            <div class="col-12 col-lg-4 col-md-6 project-outer">
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title>Shiba Inu</mat-card-title>
+                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                  <p>
+                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+                    bred for hunting.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                  <button mat-button>LIKE</button>
+                  <button mat-button>SHARE</button>
+                </mat-card-actions>
+              </mat-card>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-section">
+      <div class="contact-section-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="title">Contact Me</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-6 contact-left">
+              <h2>Get In Touch</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem commodi delectus enim illo inventore
+                iusto?</p>
+              <div class="contact-details">
+                <div class="mobile">
+                  <mat-icon>phone</mat-icon>
+                  +94766308272
+                </div>
+                <div class="email">
+                  <mat-icon>email</mat-icon>
+                  tasheelajay1999@gmail.com</div>
+                <div class="address">
+                  <mat-icon>place</mat-icon>
+                  Matale, SriLanka</div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 contact-right">
+              <h2>Contact Form</h2>
+              <div class="form">
+                <form class="example-form">
+                  <mat-form-field class="w-100">
+                    <mat-label>Name</mat-label>
+                    <input matInput placeholder="Name">
+                  </mat-form-field>
+
+                  <mat-form-field class="w-100">
+                    <mat-label>Email</mat-label>
+                    <input matInput placeholder="Email">
+                  </mat-form-field>
+
+                  <mat-form-field class="w-100">
+                    <mat-label>Message</mat-label>
+                    <textarea matInput placeholder="Message" rows="6"></textarea>
+                  </mat-form-field>
+
+
+                  <button mat-raised-button class="send-message-btn">Send Message</button>
+                </form>
+
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -11,6 +11,9 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import {MatCardModule} from "@angular/material/card";
 import {MatButtonModule} from "@angular/material/button";
 import {MatIconModule} from "@angular/material/icon";
+import {CarouselModule} from "ngx-owl-carousel-o";
+import {MatInputModule} from "@angular/material/input";
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -30,7 +33,10 @@ import {MatIconModule} from "@angular/material/icon";
     PortfolioRoutingModule,
     MatCardModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    CarouselModule,
+    MatInputModule,
+    FormsModule
   ]
 })
 export class PortfolioModule { }

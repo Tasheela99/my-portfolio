@@ -1,8 +1,8 @@
-
-$primary-color:#ffa502;
-$secondary-color:#2f3542;
-$app-color:#f1f2f6;
-$app-font:Rubik, sans-serif;
+$primary-color: #ffa502;
+$secondary-color: #2f3542;
+$primary-hover-color: #eccc68;
+$app-color: #f1f2f6;
+$app-font: Rubik, sans-serif;
 
 .landing-page-outer {
   font-family: $app-font;
@@ -31,11 +31,11 @@ $app-font:Rubik, sans-serif;
           height: 100%;
           gap: 15px;
 
-          .greeting {
+          h1.greeting {
             color: $primary-color;
-            font-weight: 900;
+            font-weight: 700;
             font-family: Rubik, sans-serif;
-            font-size: 35px;
+
           }
 
           .name {
@@ -55,7 +55,6 @@ $app-font:Rubik, sans-serif;
           }
 
           .description {
-            font-size: 15px;
             text-align: justify;
           }
 
@@ -79,23 +78,260 @@ $app-font:Rubik, sans-serif;
         }
       }
     }
+
+    .about-section {
+      width: 100%;
+      height: auto;
+      background-color: #ffffff;
+
+
+      .about-right {
+        color: $secondary-color;
+        height: 100%;
+        padding: 150px 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+
+        h1.title {
+          color: $primary-color;
+          font-weight: 700;
+        }
+
+        p.my-self {
+          text-align: justify;
+        }
+
+        .social-profiles {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: row;
+          gap: 10px;
+
+          .fa-brands {
+            width: 40px;
+            height: 40px;
+            border: 1px solid $primary-color;
+            color: $primary-color;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+
+            &:hover {
+              background-color: $primary-hover-color;
+              color: $primary-color;
+              cursor: pointer;
+              border: 1px solid $primary-hover-color;
+            }
+          }
+        }
+      }
+    }
+
+    .service-section {
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 100px 0;
+
+      h1.title {
+        color: $primary-color;
+        font-weight: 700;
+        font-family: Rubik, sans-serif;
+        margin: 0;
+      }
+
+      .service-item-outer {
+        height: 400px;
+        padding: 20px;
+
+        .item {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          border: 2px solid $primary-hover-color;
+          border-radius: 10px;
+          padding: 10px;
+          gap: 10px;
+
+          .item-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            .fa-brands, .fa-solid {
+              font-size: 40px;
+              color: $primary-color;
+            }
+          }
+
+          .item-name {
+            color: $secondary-color;
+            margin: 0;
+            font-weight: 700;
+          }
+
+          .item-description {
+            text-align: center;
+            color: $secondary-color;
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    .skills-section {
+      background-color: white;
+      color: $secondary-color;
+      padding: 100px 0;
+      height: auto;
+
+      .skills-left {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+
+      h1.title {
+        color: $primary-color;
+        font-weight: 700;
+        font-family: Rubik, sans-serif;
+        margin: 0;
+        text-align: left;
+      }
+
+      .hire-me-btn {
+        background-color: $primary-color;
+      }
+
+      .carousel-content {
+        text-align: center;
+      }
+
+      .icon {
+        font-size: 100px;
+        color: $secondary-color;
+      }
+
+    }
+
+    .projects-section {
+      padding: 100px 0;
+
+
+      h1.title {
+        color: $primary-color;
+        font-weight: 700;
+        font-family: Rubik, sans-serif;
+        margin: 0;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      .project-outer {
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 20px;
+
+        .example-card {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-evenly;
+          flex-direction: column;
+        }
+
+      }
+
+    }
+
+    .contact-section {
+      background-color: #FFFFFF;
+      color: #2f3542;
+      padding: 100px 0;
+
+      h1.title {
+        color: $primary-color;
+        font-weight: 700;
+        font-family: Rubik, sans-serif;
+        margin: 0;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      .contact-left {
+        padding: 50px 10px;
+        h2{
+          color: $primary-color;
+          font-weight: 900;
+        }
+        .contact-details {
+          .mobile, .email, .address {
+            .mat-icon{
+              color: $primary-color;
+            }
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 20px;
+          }
+        }
+      }
+
+      .contact-right{
+        padding: 50px 10px;
+        h2{
+          color: $primary-color;
+          font-weight: 900;
+        }
+        .mat-form-field{
+          input{
+            background-color: red;
+          }
+        }
+        .send-message-btn{
+          color: $secondary-color;
+          background-color: $primary-color;
+        }
+      }
+    }
   }
 
 
-  @media (max-width:576px) {
+  @media (max-width: 576px) {
 
-    .greeting{
+    .greeting {
       width: 100%;
-      font-size: 20px!important;
-      text-align: center!important;
+      font-size: 20px !important;
+      text-align: center !important;
     }
 
-    .large-text{
-      font-size: 50px!important;
+    .large-text {
+      font-size: 50px !important;
     }
-    .name{
+    .name {
       text-align: center;
-      font-size: 40px!important;
+      font-size: 40px !important;
     }
 
     .button-area {
@@ -106,7 +342,28 @@ $app-font:Rubik, sans-serif;
       flex-direction: column;
 
       .download-btn, .contact-btn {
-        width: 100%!important;
+        width: 100% !important;
+      }
+
+    }
+
+    .about-section {
+      padding: 10px;
+
+      .about-right {
+        h1.title {
+          width: 100%;
+          text-align: center !important;
+        }
+
+        h3.my-jobs {
+          width: 100%;
+          text-align: center !important;
+        }
+
+        p.my-self {
+          text-align: justify !important;
+        }
       }
 
     }

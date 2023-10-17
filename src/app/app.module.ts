@@ -15,6 +15,7 @@ import {MatSidenavModule} from "@angular/material/sidenav";
 import {MatListModule} from "@angular/material/list";
 import {MatTooltipModule} from "@angular/material/tooltip";
 import { PortfolioModule } from './modules/portfolio/portfolio.module';
+import {CarouselModule} from "ngx-owl-carousel-o";
 
 @NgModule({
   declarations: [
@@ -35,7 +36,7 @@ import { PortfolioModule } from './modules/portfolio/portfolio.module';
     PortfolioModule,
     MatListModule,
     MatTooltipModule,
-    MatIconModule
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
