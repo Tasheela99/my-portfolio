@@ -1,0 +1,98 @@
+$primary-color: #ffa502;
+$secondary-color: #2f3542;
+$primary-hover-color: #eccc68;
+$app-color: #f1f2f6;
+$app-font: Rubik, sans-serif;
+$primary-transparent-color: rgba(255, 165, 2, 0.6);
+.contact-outer {
+  background-color: #FFFFFF;
+
+  .contact-inner {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/assets/images/contact.jpg");
+    background-position: center;
+    background-size: cover;
+
+    h1 {
+      color: $primary-color;
+      font-weight: 900;
+      font-size: 40px;
+      text-transform: uppercase;
+      letter-spacing: 7px;
+
+    }
+
+  }
+
+  .contact-details-outer{
+    padding: 50px 0;
+    .contact-items {
+      height: auto;
+      background-color: #FFFFFF;
+
+      .contact-item-inner {
+        background-color: $primary-color;
+        color: $secondary-color;
+        height: 150px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: none !important;
+        margin: 5px 0;
+
+        .mat-icon {
+          width: 100%;
+          height: 100%;
+          color: $secondary-color;
+          font-size: 50px;
+          text-align: center;
+        }
+
+        .mobile, .email, .address {
+          color: $secondary-color;
+          text-transform: uppercase;
+          font-weight: 900;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+
+
+  .map-area {
+    width: 100%;
+    height: auto;
+
+    .map-area-inner {
+      width: 100%;
+      height: 600px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("/assets/images/map.png");
+      background-size: cover;
+      background-position: center;
+
+
+      .contact-form {
+        height: 600px;
+        display: grid;
+        place-items: center;
+
+        h2 {
+          color: $primary-color;
+          font-weight: 900;
+        }
+
+        .send-message-btn {
+          color: $secondary-color;
+          background-color: $primary-color;
+        }
+      }
+    }
+  }
+}
+

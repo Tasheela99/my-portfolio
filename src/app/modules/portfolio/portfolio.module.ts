@@ -14,6 +14,7 @@ import {MatIconModule} from "@angular/material/icon";
 import {CarouselModule} from "ngx-owl-carousel-o";
 import {MatInputModule} from "@angular/material/input";
 import {FormsModule} from "@angular/forms";
+import { AboutMeSectionComponent } from './components/items/about-me-section/about-me-section.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import {FormsModule} from "@angular/forms";
         ContactComponent,
         ProjectsComponent,
         HobbiesComponent,
-        LandingPageComponent
+        LandingPageComponent,
+        AboutMeSectionComponent
     ],
     exports: [
         PortfolioComponent
