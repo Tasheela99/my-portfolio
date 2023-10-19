@@ -82,6 +82,12 @@ $primary-transparent-color: rgba(255, 165, 2, 0.6);
         display: grid;
         place-items: center;
 
+        .form{
+          padding: 20px;
+          background-color: $secondary-color;
+          border-radius: 10px;
+        }
+
         h2 {
           color: $primary-color;
           font-weight: 900;

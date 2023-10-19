@@ -15,6 +15,7 @@ import {CarouselModule} from "ngx-owl-carousel-o";
 import {MatInputModule} from "@angular/material/input";
 import {FormsModule} from "@angular/forms";
 import { AboutMeSectionComponent } from './components/items/about-me-section/about-me-section.component';
+import { ProjectsSectionComponent } from './components/items/projects-section/projects-section.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { AboutMeSectionComponent } from './components/items/about-me-section/abo
         ProjectsComponent,
         HobbiesComponent,
         LandingPageComponent,
-        AboutMeSectionComponent
+        AboutMeSectionComponent,
+        ProjectsSectionComponent
     ],
     exports: [
         PortfolioComponent
