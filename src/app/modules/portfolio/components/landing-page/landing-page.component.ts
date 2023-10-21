@@ -53,5 +53,10 @@ export class LandingPageComponent {
     {technology: 'GitHub', iconClass: 'fab fa-github'},
   ];
 
+  shopify: string = "Shopify development is crafting and customizing online stores on the Shopify platform. It involves designing layouts, integrating features, and optimizing user experiences for seamless e-commerce operations.";
+  uiUx: string = "UI/UX development is the art of designing user interfaces and experiences. It combines aesthetics and usability to create visually pleasing, user-friendly digital products that enhance customer engagement and satisfaction.";
+  softwareAndWeb:string = "Software and web development encompass coding and designing applications and websites. Skilled developers create functional, user-friendly, and scalable digital solutions, catering to diverse industries and user needs.";
+  mySkillsAndTools: string = "I possess proficiency in various programming languages and frameworks, such as Python, Java, and JavaScript, along with experience in web development, database management, and application development. These skills empower me to create innovative digital solutions.";
+
 
 }

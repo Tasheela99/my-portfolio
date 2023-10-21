@@ -6,7 +6,7 @@ $app-font: Rubik, sans-serif;
 
 .container {
   .row {
-
+  padding: 20px;
     .about-right {
       color: $secondary-color;
       height: 100%;
@@ -26,6 +26,9 @@ $app-font: Rubik, sans-serif;
       }
 
       .social-profiles {
+        a{
+          text-decoration: none;
+        }
         display: flex;
         align-items: center;
         justify-content: center;
@@ -54,4 +57,29 @@ $app-font: Rubik, sans-serif;
     }
   }
 
+}
+@media (max-width: 576px) {
+
+  .about-right {
+    h1.title {
+      width: 100%;
+      text-align: center !important;
+    }
+
+    h3.my-jobs {
+      width: 100%;
+      text-align: center !important;
+    }
+
+    p.my-self {
+      text-align: justify !important;
+    }
+
+    .social-profiles{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center
+    }
+  }
 }

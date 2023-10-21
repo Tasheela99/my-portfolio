@@ -16,6 +16,7 @@ import {MatInputModule} from "@angular/material/input";
 import {FormsModule} from "@angular/forms";
 import { AboutMeSectionComponent } from './components/items/about-me-section/about-me-section.component';
 import { ProjectsSectionComponent } from './components/items/projects-section/projects-section.component';
+import { ContactMeSectionComponent } from './components/items/contact-me-section/contact-me-section.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ProjectsSectionComponent } from './components/items/projects-section/pr
         HobbiesComponent,
         LandingPageComponent,
         AboutMeSectionComponent,
-        ProjectsSectionComponent
+        ProjectsSectionComponent,
+        ContactMeSectionComponent
     ],
     exports: [
         PortfolioComponent

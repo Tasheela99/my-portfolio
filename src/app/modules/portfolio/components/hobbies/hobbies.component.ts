@@ -25,6 +25,9 @@ export class HobbiesComponent implements OnInit{
     autoplay: true,
     autoplayTimeout: 5000,
     smartSpeed: 4000,
+    nav:false,
+    navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+    autoplayHoverPause:true,
     responsive: {
       0: {
         items: 1

@@ -12,11 +12,10 @@
                 <span class="large-text">J</span>ayawickrma
               </h1>
               <p class="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                dolorum quidem accusantium deleniti autem inventore maiores
-                dolore cumque, consequuntur asperiores perferendis possimus,
-                doloribus molestias non rem architecto, earum quibusdam.
-                Sapiente.
+                I am Tasheela Jayawickrama, an aspiring software engineer from Sri Lanka. Currently an undergraduate, I
+                am passionate about technology and possess strong analytical skills. My determination, collaborative
+                nature, and cultural background contribute to my ambition to create impactful, user-centric software
+                solutions.
               </p>
 
               <div class="button-area">
@@ -24,14 +23,16 @@
                   Contact Me
                   <mat-icon>phone</mat-icon>
                 </button>
-                <button mat-stroked-button class="download-btn" >
+                <button mat-stroked-button class="download-btn">
                   Download CV
                   <mat-icon>download</mat-icon>
                 </button>
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-6 right"></div>
+          <div class="col-12 col-lg-6 right d-flex align-items-center justify-content-center">
+            <img src="assets/images/hero.png" alt="my-image" class="my-image" width="100%">
+          </div>
         </div>
       </div>
     </div>
@@ -52,18 +53,14 @@
             <div class="item">
               <div class="item-icon"><i class="fa-brands fa-shopify"></i></div>
               <h1 class="item-name">Shopify Development</h1>
-              <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consequatur
-                doloremque earum explicabo hic in minima nam nihil quae quasi, sint tempore. Ad aspernatur cumque ipsam
-                mollitia recusandae rerum voluptate.</p>
+              <p class="item-description">{{shopify}}</p>
             </div>
           </div>
           <div class="col-12 col-lg-4 service-item-outer">
             <div class="item">
               <div class="item-icon"><i class="fa-brands fa-figma"></i></div>
               <h1 class="item-name">Ui/UX Design</h1>
-              <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloremque
-                ducimus enim eos eum facilis incidunt magni maiores officiis pariatur, qui quibusdam repellendus
-                similique? Alias harum labore minus repudiandae totam!</p>
+              <p class="item-description">{{uiUx}}</p>
             </div>
 
           </div>
@@ -71,13 +68,21 @@
             <div class="item">
               <div class="item-icon"><i class="fa-solid fa-terminal"></i></div>
               <h1 class="item-name">Web Development</h1>
-              <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto
-                aut cum dolorem itaque quis sit? Accusamus aliquam, amet ducimus ex ipsa iste laboriosam modi neque
-                quibusdam sint sit tempore.</p>
+              <p class="item-description">{{softwareAndWeb}}</p>
             </div>
 
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="image-bar-outer">
+      <div class="image-bar-inner">
+        <h1 class="title text-center">Need My Help?</h1>
+        <button class="hire-me-btn" mat-raised-button routerLink="/portfolio/contact">
+          <i class="fa-brands fa-phoenix-framework"></i>
+          Hire me
+        </button>
       </div>
     </div>
 
@@ -87,9 +92,7 @@
           <div class="row">
             <div class="skills-left col-12 col-lg-6 py-5">
               <h1 class="title">My Skills And Tools</h1>
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores at blanditiis
-                commodi dicta doloremque eius exercitationem illum inventore mollitia optio pariatur quas, quos ut
-                voluptas?</p>
+              <p class="description">{{mySkillsAndTools}}</p>
               <button class="hire-me-btn" mat-raised-button>
                 <i class="fa-brands fa-phoenix-framework"></i>
                 Hire me
@@ -127,48 +130,8 @@
               <h1 class="title">Contact Me</h1>
             </div>
           </div>
-          <div class="row">
-            <div class="col-12 col-lg-6 contact-left">
-              <h2>Get In Touch</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem commodi delectus enim illo inventore
-                iusto?</p>
-              <div class="contact-details">
-                <div class="mobile">
-                  <mat-icon>phone</mat-icon>
-                  +94766308272
-                </div>
-                <div class="email">
-                  <mat-icon>email</mat-icon>
-                  tasheelajay1999@gmail.com
-                </div>
-                <div class="address">
-                  <mat-icon>place</mat-icon>
-                  Matale, SriLanka
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-lg-6 contact-right">
-              <h2>Contact Form</h2>
-              <div class="form">
-                <form class="example-form">
-                  <mat-form-field class="w-100 "  appearance="outline" color="accent" >
-                    <mat-label>Name</mat-label>
-                    <input matInput placeholder="Name">
-                  </mat-form-field>
-
-                  <mat-form-field class="w-100"  appearance="outline" color="accent">
-                    <mat-label>Email</mat-label>
-                    <input matInput placeholder="Email">
-                  </mat-form-field>
-
-                  <mat-form-field class="w-100"  appearance="outline" color="accent">
-                    <mat-label>Message</mat-label>
-                    <textarea matInput placeholder="Message" rows="6"></textarea>
-                  </mat-form-field>
-                  <button mat-raised-button class="send-message-btn">Send Message</button>
-                </form>
-              </div>
-            </div>
+          <div class="contact-area">
+            <app-contact-me-section></app-contact-me-section>
           </div>
         </div>
       </div>

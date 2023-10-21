@@ -7,8 +7,15 @@ import {Component, EventEmitter, Output} from '@angular/core';
 })
 export class HeaderComponent {
 
+  isNavVisible: boolean = false;
+
   @Output() sidenavToggle = new EventEmitter<void>();
+
   toggleSideNav() {
     this.sidenavToggle.emit();
+  }
+
+  toggleMenu() {
+    this.isNavVisible = !this.isNavVisible;
   }
 }

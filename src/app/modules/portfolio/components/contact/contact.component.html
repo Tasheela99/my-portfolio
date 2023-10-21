@@ -1,17 +1,25 @@
 <div class="contact-outer">
   <div class="contact-inner">
     <div class="contact-landing">
-      <h1 class="text-center">Contact Me</h1>
+      <h1 class="text-center">Contact</h1>
     </div>
   </div>
   <div class="contact-details-outer">
     <div class="container">
       <div class="row">
+        <div class="col-12">
+          <h1 class="title">Contact Me On</h1>
+        </div>
+      </div>
+      <div class="row contact-row">
         <div class="col-12 col-lg-4 contact-items">
           <div class="contact-item-inner">
             <div class="mobile">
               <mat-icon>phone</mat-icon>
-              +94766308272
+              <p>if you need any help don't hesitate to contact me. i am always available on <span class="whatsapp">whatsapp </span>,
+                <span class="telegram">telegram </span> and <span class="viber">viber </span></p>
+              <p>+94766308272</p>
+              <a href="tel:+94766308272"><button mat-raised-button>Call Me</button></a>
             </div>
           </div>
         </div>
@@ -19,7 +27,10 @@
           <div class="contact-item-inner">
             <div class="email">
               <mat-icon>email</mat-icon>
-              tasheelajay1999@gmail.com</div>
+              <p>if you need any help don't hesitate to contact me. i am always available on <span class="mail">Email </span></p>
+              <p>tasheelajay1999@gmail.com</p>
+              <a href="mailto:tasheelajay1999@gmail.com" target="_blank"><button mat-raised-button>Email Me</button></a>
+            </div>
           </div>
 
         </div>
@@ -27,7 +38,10 @@
           <div class="contact-item-inner">
             <div class="address">
               <mat-icon>place</mat-icon>
-              Matale, SriLanka</div>
+              <p>if you want go get help from me you can find me on this <span class="location">location</span></p>
+              <p>Matale, SriLanka</p>
+              <a href="mailto:tasheelajay1999@gmail.com" target="_blank"><button mat-raised-button>Find Me</button></a>
+            </div>
           </div>
 
         </div>
@@ -39,30 +53,7 @@
     <div class="map-area-inner">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-6 contact-form">
-            <div class="form">
-              <form class="example-form">
-                <h2>Contact Form</h2>
-                <mat-form-field class="w-100 custom-mat-form-field" appearance="outline" color="accent">
-                  <mat-label>Name</mat-label>
-                  <input matInput placeholder="Name">
-                </mat-form-field>
-
-                <mat-form-field class="w-100" appearance="outline" color="accent">
-                  <mat-label>Email</mat-label>
-                  <input matInput placeholder="Email">
-                </mat-form-field>
-
-                <mat-form-field class="w-100" appearance="outline" color="accent">
-                  <mat-label>Message</mat-label>
-                  <textarea matInput placeholder="Message" rows="6"></textarea>
-                </mat-form-field>
-
-
-                <button mat-raised-button class="send-message-btn">Send Message</button>
-              </form>
-            </div>
-          </div>
+          <app-contact-me-section></app-contact-me-section>
         </div>
       </div>
     </div>
