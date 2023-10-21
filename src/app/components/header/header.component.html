@@ -9,7 +9,7 @@
           <mat-icon>menu</mat-icon>
         </button>
       </div>
-      <div class="header-nav-items col-12 col-lg-6 col-md-6 d-flex align-items-center justify-content-end" *ngIf="isNavVisible">
+      <div class="header-nav-items col-12 col-lg-6 col-md-6 d-flex align-items-center justify-content-end animate__animated" *ngIf="isNavVisible" [ngClass]="{'animate__fadeInDown': isNavVisible, 'animate__fadeInUp': !isNavVisible}">
         <button mat-button routerLinkActive="active-link" routerLink="portfolio/landing" matTooltipClass="tool-tip-style" matTooltip="Home">Home</button>
         <button mat-button routerLinkActive="active-link" routerLink="portfolio/about" matTooltipClass="tool-tip-style" matTooltip="About">About</button>
         <button mat-button routerLinkActive="active-link" routerLink="portfolio/projects" matTooltipClass="tool-tip-style" matTooltip="Projects">Projects</button>

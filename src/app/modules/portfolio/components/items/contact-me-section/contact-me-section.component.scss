@@ -41,3 +41,9 @@ $primary-transparent-color: rgba(255, 165, 2, 0.6);
     background-color: $primary-color;
   }
 }
+
+@media (max-width: 998px) {
+  .contact-right{
+    border-radius: 0;
+  }
+}

@@ -20,6 +20,7 @@ $primary-transparent-color: rgba(255, 165, 2, 0.6);
     .landing-section {
       width: 100%;
       height: auto;
+      padding: 50px 0 0 0 ;
 
 
       .left {
@@ -307,6 +308,7 @@ $primary-transparent-color: rgba(255, 165, 2, 0.6);
 
     }
 
+
     .contact-right{
       border-radius: 0!important;
 
@@ -315,7 +317,7 @@ $primary-transparent-color: rgba(255, 165, 2, 0.6);
 
   @media (max-width: 998px) {
     .left{
-      padding: 50px 20px;
+      padding: 100px 20px;
     }
     .right{
       .my-image{
